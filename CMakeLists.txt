@@ -24,3 +24,6 @@ include_directories(
 
 add_executable(frame_a_to_frame_b_broadcaster src/frame_a_to_frame_b_broadcaster.cpp)
 target_link_libraries(frame_a_to_frame_b_broadcaster ${catkin_LIBRARIES})
+
+add_executable(navigate_goal src/navigate_goal.cpp)
+target_link_libraries(navigate_goal ${catkin_LIBRARIES})
